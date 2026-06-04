@@ -1,0 +1,12 @@
+# Block any folder named data anywhere in the project
+**/data/
+
+# Block any folder named cifar-10-batches-py
+**/cifar-10-batches-py/
+
+# Block all tar.gz compressed files anywhere
+**/*.tar.gz
+
+# Blockthe vrtual environment
+.venv/
+venv/
